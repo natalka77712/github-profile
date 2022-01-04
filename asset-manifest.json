@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/github-profile/static/css/main.24483e62.css",
+    "main.js": "/github-profile/static/js/main.b494632a.js",
+    "static/js/787.91b421da.chunk.js": "/github-profile/static/js/787.91b421da.chunk.js",
+    "static/media/inter-semiBold.woff": "/github-profile/static/media/inter-semiBold.21cc631736a2ce7be844.woff",
+    "static/media/inter-medium.woff": "/github-profile/static/media/inter-medium.9515a01491e5c21835c6.woff",
+    "static/media/inter-regular.woff": "/github-profile/static/media/inter-regular.2ddce28aa47846b3accb.woff",
+    "static/media/pulse.svg": "/github-profile/static/media/pulse.0d6890d8f468cd6c80291da052480d08.svg",
+    "static/media/github-icon.svg": "/github-profile/static/media/github-icon.1ee5d17ed4c57bd108a057783e8b165a.svg",
+    "static/media/followers-icon.svg": "/github-profile/static/media/followers-icon.6543c8b039ed15f989df6509502da8e8.svg",
+    "static/media/no-repo-icon.svg": "/github-profile/static/media/no-repo-icon.ae2522580bf55fa6ea58b4d7ae8a6e60.svg",
+    "static/media/init-icon.svg": "/github-profile/static/media/init-icon.5d641b04cc9e3677440997256a3821c1.svg",
+    "static/media/following-icon.svg": "/github-profile/static/media/following-icon.e490f2ef98eb937d7888b85f78d4c56a.svg",
+    "index.html": "/github-profile/index.html",
+    "main.24483e62.css.map": "/github-profile/static/css/main.24483e62.css.map",
+    "main.b494632a.js.map": "/github-profile/static/js/main.b494632a.js.map",
+    "787.91b421da.chunk.js.map": "/github-profile/static/js/787.91b421da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24483e62.css",
+    "static/js/main.b494632a.js"
+  ]
+}
