@@ -1,0 +1,20 @@
+@import "./src/common/styles/variables";
+
+.init-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.init-page__icon {
+  width: 64px;
+  height: 64px;
+}
+
+.init-page__title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-bottom: 29px;
+  color: $grey;
+}

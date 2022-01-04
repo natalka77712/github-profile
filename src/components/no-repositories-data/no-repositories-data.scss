@@ -1,0 +1,21 @@
+@import "./src/common/styles/variables";
+
+.repo-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 640px;
+}
+
+.repo-not-found__icon {
+  width: 72px;
+  height: 62px;
+}
+
+.repo-not-found__title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-bottom: 29px;
+  color: $grey;
+}

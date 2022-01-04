@@ -1,0 +1,36 @@
+@import "./src/common/styles/variables";
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  cursor: pointer;
+}
+
+.pagination__wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.pagination__link,
+.pagination__not-selected,
+.pagination__selected-page {
+  margin: 0 2px;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: grey;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination__selected-page {
+  color: white;
+  background: $blue;
+}
+
+.pagination__total-pages {
+  margin-right: 5px;
+  font-size: 16px;
+  color: grey;
+}

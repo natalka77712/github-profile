@@ -1,0 +1,56 @@
+@import "./src/common/styles/mixins";
+
+.profile {
+  padding: 39px 50px 0 57px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__avatar img {
+  border-radius: 50%;
+  height: 280px;
+  width: 280px;
+}
+
+.profile__user-name {
+  margin: 25px 0 10px;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.profile__user-login {
+  margin-bottom: 22px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.profile__followers-icon {
+  margin-right: 5px;
+  width: 22px;
+  height: 14px;
+}
+
+.profile__following-icon {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+.profile__followers-description,
+.profile__following-description {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.profile__followers-container,
+.profile__followers,
+.profile__following {
+  @include flex(row, flex-start, center, wrap);
+}
+
+.profile__following {
+  margin-left: 20px;
+}

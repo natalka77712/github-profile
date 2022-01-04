@@ -1,0 +1,14 @@
+@import "./src/common/styles/variables";
+@import "./src/common/styles/mixins";
+
+.profile-page {
+  padding: 0 56px 30px;
+  @include flex(row, flex-start, flex-start, no-wrap);
+  background-color: $lightGrey;
+}
+
+.profile-page__init-wrapper {
+ margin: 0 auto;
+  display: flex;
+  min-height: 700px;
+}

@@ -1,0 +1,25 @@
+@import "./src/common/styles/variables";
+@import "./src/common/styles/mixins";
+
+.repository {
+  padding: 24px 32px;
+  margin-bottom: 24px;
+  @include flex(column, flex-start, flex-start, wrap);
+  background-color: white;
+  width: 877px;
+  min-height: 112px;
+}
+
+a {
+   text-decoration: none;
+   color: $blue;
+   font-size: 24px;
+   line-height: 29px;
+   font-weight: 500;
+ }
+
+p {
+  margin: 14px 0 0;
+   font-size: 16px;
+   line-height: 19px;
+ }

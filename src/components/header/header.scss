@@ -1,0 +1,28 @@
+@import "./src/common/styles/variables";
+
+.header {
+  padding: 0 40px;
+  display: flex;
+  background-color: $blue;
+  align-items:center;
+}
+
+.header__icon {
+  display: flex;
+  background-color: $blue;
+  min-height: 72px;
+
+  & img {
+    width: 30px;
+  }
+}
+
+input {
+  padding: 13px 19px;
+  margin-left: 20px;
+  height: 40px;
+  min-width: 500px;
+  border:none;
+  outline:none;
+  border-radius: 6px;
+}
